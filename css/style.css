@@ -1,0 +1,257 @@
+body{
+	background:url(../img/fond2.jpg) no-repeat center top fixed;
+	background-size: 100%;
+	font-family: helvetica neue;
+}
+#butt{
+  z-index: 10;
+    position: fixed;
+    bottom:50px;
+    right: 50px;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+  transition: transform 2s;
+}
+.bdown{
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.bup{
+  -moz-transform: rotate(135deg);
+-o-transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
+transform: rotate(135deg);
+}
+.menu-toggle {
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.menu-toggle.on .one {
+  -moz-transform: rotate(45deg) translate(7px, 7px);
+  -ms-transform: rotate(45deg) translate(7px, 7px);
+  -webkit-transform: rotate(45deg) translate(7px, 7px);
+  transform: rotate(45deg) translate(7px, 7px);
+}
+
+.menu-toggle.on .two {
+  opacity: 0;
+}
+
+.menu-toggle.on .three {
+  -moz-transform: rotate(-45deg) translate(8px, -10px);
+  -ms-transform: rotate(-45deg) translate(8px, -10px);
+  -webkit-transform: rotate(-45deg) translate(8px, -10px);
+  transform: rotate(-45deg) translate(8px, -10px);
+}
+
+.one,
+.two,
+.three {
+  width: 100%;
+  height: 5px;
+  background: white;
+  margin: 6px auto;
+  backface-visibility: hidden;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica neue;
+  list-style: none;
+  margin: 4em auto;
+  text-align: center;
+}
+nav ul.hidden {
+  display: none;
+}
+nav ul a {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  color: white;
+  font-size: 3em;
+  line-height: 1.5;
+  width: 100%;
+  display: block;
+}
+nav ul a:hover {
+  background: #5c2e2e;
+  font: white;
+}
+nav li a:hover{
+  font: white;
+}
+
+.menu-section.on {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+
+.logoaccueil{
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+.logo{
+	width: 15%;
+	margin-left: 5%;
+}
+.travail{
+  margin-left: 50px;
+}
+.sur{
+
+    position:absolute;
+    left: 24%;
+    top: 52%;
+    font-size: 20px;
+    color:black;
+
+}
+
+p{
+  font-family: helvetica neue;
+}
+
+
+.jumbotron{
+	background-color: transparent;
+	margin-left: 20%;
+}
+
+.zoom {
+width: 320px;
+height: 240px;
+}
+
+.image img {
+-webkit-transition: all 1s ease; 
+-moz-transition: all 1s ease; 
+-ms-transition: all 1s ease; 
+-o-transition: all 1s ease; 
+transition: all 1s ease;
+}
+.image:hover img {
+-webkit-transform:scale(1.25); 
+-moz-transform:scale(1.25); 
+-ms-transform:scale(1.25); 
+-o-transform:scale(1.25); 
+transform:scale(1.25);
+}
+.col-lg-6{
+  padding-left: 180px;
+}
+
+h2{
+	color:white;
+	margin-left: 5%;   }
+
+b{
+	color: black;
+	margin-left: 25%;
+
+}
+.couleur{
+  background-color: black;
+}
+
+.affiche{
+	width: 30%;
+	margin-left: 19%;
+	margin-top: -10%;
+} 
+
+.affiche1{
+	width: 30%;
+	margin-left: 56%;
+	margin-top: -10%;
+}
+
+.milieu{
+	margin-top: 17%;
+}
+
+.affiche2{
+	width: 30%;
+	margin-left: 19%;
+	margin-top: -10%;
+} 
+
+.affiche3{
+	width: 30%;
+	margin-left: 56%;
+	margin-top: -10%;
+}
+h2{
+  color:white;
+  margin-left: 5%;
+}
+
+
+
+.photo{
+  width: 35%;
+  margin-left: 5%;
+  margin-top: 10px;
+
+}
+.jumbotron{
+  background-color: transparent;
+  margin-top: 3%;
+margin-left: 30px;
+
+}
+
+h4{
+  margin-left: 42%;
+  text-align: justify;
+}
+
+
+video{
+  width: 50%;
+  margin-left: 27%;
+}
+              
+@media screen and (max-width: 625px)
+{
+.logoaccueil{
+  width: 30%;
+}
+.photo{
+  margin-top: -499px;
+  margin-left: -16px;
+  width: 40%;
+}
+h4{
+  font-size: 100%;
+}
+.typo{
+  font-size: 200%;
+}
+/* propriétés pour mobile */
+}
+@media screen and (max-width: 976px)
+{
+/* propriétés pour tablette */
+}
